@@ -1,0 +1,49 @@
+body {
+  /*font-family: HK Grotesk;*/
+  background-color: #8B80F9;
+  font-family: "Raleway", sans-serif;
+}
+
+
+button {
+  background-color: #white;
+  padding: 10px;
+  font-family: "Raleway", sans-serif;
+  font-size: small;
+  font-weight: bold;
+}
+
+button:hover {
+  opacity: 0.5;
+}
+
+h1 {
+  color: #2F195F;
+  font-style: normal;
+  font-weight: bold;
+  font-family: "Bebas Neue", cursive;
+  letter-spacing: 2px;
+}
+
+h2 {
+  color: #2ecf18;
+  background-color: #9BF3F0;
+  border: 5px solid white;
+  padding: 5px;
+  margin: 10px 3px;
+  font-family: "Bebas Neue", cursive;
+  letter-spacing: 2px;
+}
+
+p {
+  /*font-family: HK Grotesk;*/
+  background-color: #8B80F9;
+  font-family: "Raleway", sans-serif;
+}
+
+.smileyface {
+  float: right;
+  height: 20vmin;
+
+}
+
