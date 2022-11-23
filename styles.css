@@ -9,12 +9,12 @@ html {
 
 body {
   /*font-family: HK Grotesk;*/
-  background-color: #8B80F9;
+  background-color: #b8d5db;
   font-family: "Raleway", sans-serif;
 }
 
 h1 {
-  color: #2F195F;
+  color: #29696b;
   font-style: normal;
   font-weight: bold;
   font-family: "Bebas Neue", cursive;
@@ -23,8 +23,8 @@ h1 {
 }
 
 h2 {
-  color: #8B80F9;
-  background-color: #9BF3F0;
+  color: #29696b;
+  background-color: #b8d5db;
   border: 5px solid white;
   padding: 5px;
   margin: 10px 0px;
@@ -101,12 +101,13 @@ header {
 }
 
 button {
-  color: #2F195F;
-  background-color: white;
+  background-color: #29696b;
   padding: 10px;
   font-family: "Raleway", sans-serif;
+  border: 5px solid white;
   font-size: small;
   font-weight: bold;
+  color: white;
 }
 
 button:hover {
