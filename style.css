@@ -1,0 +1,115 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  /*font-family: HK Grotesk;*/
+  background-color: #8B80F9;
+  font-family: "Raleway", sans-serif;
+}
+
+h1 {
+  color: #2F195F;
+  font-style: normal;
+  font-weight: bold;
+  font-family: "Bebas Neue", cursive;
+  letter-spacing: 2px;
+  margin-bottom: 0px;
+}
+
+h2 {
+  color: #8B80F9;
+  background-color: #9BF3F0;
+  border: 5px solid white;
+  padding: 5px;
+  margin: 10px 0px;
+  font-family: "Bebas Neue", cursive;
+  letter-spacing: 2px;
+}
+
+h3 {
+  color: navy;
+  line-height: 80%;
+}
+
+a {
+  color: white;
+}
+
+.work li {
+  color: navy;
+}
+
+strong {
+  color: navy;
+  font-size: 20px;
+}
+
+.logo {
+  height: 30px;
+  margin: 0px;
+  margin-left: 8px;
+  margin-right: 1px;
+}
+
+.mail {
+  height: 30px;
+  margin: 0px;
+  margin-left: 8px;
+  margin-right: 1px;
+}
+
+header {
+  overflow: hidden;
+  text-align: center;
+}
+
+.logo:hover {
+  opacity: 0.5;
+}
+
+@media (max-width: 1350) {
+}
+
+@media (max-width: 900) {
+  h2 {
+    padding: 5px;
+    margin: 8px 3px;
+  }
+}
+
+@media screen and (max-width: 500) {
+  h2 {
+    padding: 4px;
+    margin: 7px 3px;
+  }
+  body {
+    background-color: green;
+  }
+}
+
+@media screen and (max-width: 300) {
+  h2 {
+    padding: 3px;
+    margin: 6px 2px;
+  }
+}
+
+button {
+  color: #2F195F;
+  background-color: white;
+  padding: 10px;
+  font-family: "Raleway", sans-serif;
+  font-size: small;
+  font-weight: bold;
+}
+
+button:hover {
+  opacity: 0.5;
+}
+
