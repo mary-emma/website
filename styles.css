@@ -1,3 +1,4 @@
+/*color palette from https://colorpalettes.net/color-palette-4532/*/
 html {
   box-sizing: border-box;
 }
@@ -8,13 +9,12 @@ html {
 }
 
 body {
-  /*font-family: HK Grotesk;*/
-  background-color: #b8d5db;
+  background-color: #3F5576;
   font-family: "Raleway", sans-serif;
 }
 
 h1 {
-  color: #29696b;
+  color: #EDF2F7;
   font-style: normal;
   font-weight: bold;
   font-family: "Bebas Neue", cursive;
@@ -23,9 +23,9 @@ h1 {
 }
 
 h2 {
-  color: #29696b;
-  background-color: #b8d5db;
-  border: 5px solid white;
+  color: #EDF2F7;
+  background-color: #587099;
+  border: 5px solid #EDF2F7;
   padding: 5px;
   margin: 10px 0px;
   font-family: "Bebas Neue", cursive;
@@ -33,21 +33,21 @@ h2 {
 }
 
 h3 {
-  color: navy;
+  color: #B4C6D0;
   line-height: 80%;
 }
 
 a {
-  color: navy;
+  color: white;
 }
 
 li {
-  color: black;
+  color: #EDF2F7;
 }
 
 strong {
-  color: navy;
   font-size: 20px;
+  font-weight: bold;
 }
 
 .logo {
@@ -88,9 +88,6 @@ header {
     padding: 4px;
     margin: 7px 3px;
   }
-  body {
-    background-color: green;
-  }
 }
 
 @media screen and (max-width: 300) {
@@ -101,16 +98,16 @@ header {
 }
 
 button {
-  background-color: #29696b;
+  background-color: #8689AC;
   padding: 10px;
   font-family: "Raleway", sans-serif;
-  border: 5px solid white;
+  border: 5px solid #EDF2F7;
   font-size: small;
   font-weight: bold;
-  color: white;
+  color: #EDF2F7;
+  border-radius: 6px;
 }
 
 button:hover {
   opacity: 0.5;
 }
-
