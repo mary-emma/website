@@ -1,18 +1,18 @@
 body {
-  /*font-family: HK Grotesk;*/
-  background-color: #b8d5db;
+  background-color: #3F5576;
   font-family: "Raleway", sans-serif;
 }
 
 
 button {
-  background-color: #29696b;
+  background-color: #8689AC;
   padding: 10px;
   font-family: "Raleway", sans-serif;
-  border: 5px solid white;
+  border: 5px solid #EDF2F7;
   font-size: small;
   font-weight: bold;
-  color: white;
+  color: #EDF2F7;
+  border-radius: 6px;
 }
 
 button:hover {
@@ -20,12 +20,25 @@ button:hover {
 }
 
 h1 {
-  color: #29696b;
+  color: #EDF2F7;
   font-style: normal;
   font-weight: bold;
   font-family: "Bebas Neue", cursive;
   letter-spacing: 2px;
 }
+
+p {
+  background-color: #3F5576;
+  color:  #EDF2F7;
+  font-family: "Raleway", sans-serif;
+}
+
+.smileyface {
+  float: right;
+  height: 20vmin;
+
+}
+
 
 h2 {
   color: #2ecf18;
