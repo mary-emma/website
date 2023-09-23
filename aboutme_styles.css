@@ -41,7 +41,6 @@ p {
 
 h2 {
   color: #2ecf18;
-  background-color: #29696b;
   border: 5px solid white;
   padding: 5px;
   margin: 10px 3px;
@@ -49,11 +48,6 @@ h2 {
   letter-spacing: 2px;
 }
 
-p {
-  /*font-family: HK Grotesk;*/
-  background-color: #b8d5db;
-  font-family: "Raleway", sans-serif;
-}
 
 
 
